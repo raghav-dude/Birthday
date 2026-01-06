@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Grand Birthday Surprise!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio id="backgroundMusic" loop>
+        <source src="birthday_song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="step active" id="step1">
+        <div class="welcome-card">
+            <h1 class="welcome-title">You've got a surprise!</h1>
+            <p class="welcome-message">Click below to start your birthday journey...</p>
+            <button id="startButton" class="action-button">Start the Celebration!</button>
+        </div>
+    </div>
+
+    <div class="step" id="step2">
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-seal"></div>
+            </div>
+            <p class="click-instruction">Click the envelope!</p>
+        </div>
+    </div>
+
+    <div class="step" id="step3">
+        <div class="letter-container" id="letterContainer">
+            <div class="letter">
+                <p>Chaakey,</p>
+                <p>Happy Birthday, Guiye!🥳❤️ I hope your special day is as incredible as you are. May this year bring
+                    you endless happiness, good health, and all the success your heart desires. You are truly a blessing
+                    in my life, and I’m so thankful for the bond we share. Your kindness, strength, and amazing spirit
+                    inspire me every day. I’m beyond lucky to have you by my side, and I look forward to creating many
+                    more beautiful memories with you in the year ahead. I've been so fortunate to find someone like
+                    you—thank you for the love, friendship, and care you’ve given me. I will be forever grateful. As we
+                    continue to grow together, I hope our bond only becomes stronger. Remember, no matter what happens,
+                    I’ll always be by your side. You are never alone, and I will always be here for you. Let’s move
+                    forward with fresh hope and embrace the future with positivity. Wishing you a day filled with love
+                    and joy, and a year that brings you all the happiness you deserve.....Sadhaii masta ra hasta
+                    rahanuu..Dher j pei teii nabhannu malai dher dukha nadinu..Bhaneko maannu.. Yestaii sath sahayog
+                    sadhai di rahanu..Socheko aateko pugos...Aafule aafno value kaile naghataunu... Parai
+                    nabanaunu...... Chaak xitai dekhaunu …Cheers to the 22nd birthday Chaakey Guiyee Pookie 🎀🥳❤️</p>
+                <p>Click the button to reveal your special birthday surprise!</p>
+                <button id="unfoldButton" class="action-button">Unfold My Surprise!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="step" id="stepgallery">
+        <div class="gallery-container">
+            <h1 class="gallery-title">A Walk Down Memory Lane</h1>
+            <div class="slider-wrapper">
+                <button class="slider-btn prev-btn" id="prevBtn">&#10094;</button>
+                <div class="slider-container" id="sliderContainer">
+                    <!-- Images from local files -->
+                    <div class="slide active"><img src="IMG_3268.JPG" alt="Birthday Memory 1"></div>
+                    <div class="slide"><img src="0f60de6d-1124-463a-a50a-5ebde086aeaa.jpg" alt="Birthday Memory 3"></div>
+                    <div class="slide"><img src="93b5000a-2f22-4d48-b6a4-c1858e0ee884.jpg" alt="Birthday Memory 4"></div>
+                    <div class="slide"><img src="a62e2d7d-b849-4956-b9e5-0c7835ef2d33.jpg" alt="Birthday Memory 5"></div>
+                    <div class="slide"><img src="WhatsApp Image 2026-01-03 at 8.51.09 PM.jpeg" alt="Birthday Memory 2"></div>
+                </div>
+                <button class="slider-btn next-btn" id="nextBtn">&#10095;</button>
+            </div>
+            <p class="gallery-caption">Some beautiful moments... &hearts;</p>
+            <button id="toCelebrationBtn" class="action-button">Ready for the Finale?</button>
+        </div>
+    </div>
+
+    <div class="step" id="step4">
+        <div class="celebration-container">
+            <div class="fireworks-container"></div>
+            <div class="confetti-cannon-container"></div>
+            <div class="balloons-container"></div>
+
+            <div class="celebration-card">
+                <p class="sub-greeting">To the amazing</p>
+                <h1 class="main-greeting typewriter-text" id="finalGreeting">Happy Birthday,</h1>
+                <h2 class="recipient-name">Chaakey!</h2>
+                <div class="cake-container">
+                    <div class="cake">
+                        <div class="plate"></div>
+                        <div class="layer layer-bottom"></div>
+                        <div class="layer layer-middle"></div>
+                        <div class="layer layer-top"></div>
+                        <div class="icing"></div>
+                        <div class="drip drip1"></div>
+                        <div class="drip drip2"></div>
+                        <div class="drip drip3"></div>
+                        <div class="candle">
+                            <div class="flame" id="candleFlame"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="final-wish">May your special day be filled with immense joy, laughter, and all the wonderful
+                    things life has to offer. Here's to another year of amazing adventures!</p>
+                <p class="signature">With love and best wishes <span class="heart-icon"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
